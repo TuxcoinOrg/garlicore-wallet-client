@@ -2,7 +2,7 @@
   "name": "garlicore-wallet-client",
   "description": "Client for garlicore-wallet-service",
   "author": "BitPay Inc",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "license": "MIT",
   "keywords": [
     "bitcoin",
