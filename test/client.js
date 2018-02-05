@@ -18,7 +18,7 @@ var log = require('../lib/log');
 var Bitcore = require('garlicore-lib');
 var BitcorePayPro = require('garlicore-payment-protocol');
 
-var BWS = require('bitcore-wallet-service');
+var BWS = require('garlicore-wallet-service');
 
 var Common = require('../lib/common');
 var Constants = Common.Constants;
