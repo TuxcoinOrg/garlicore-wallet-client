@@ -2,7 +2,7 @@
   "name": "garlicore-wallet-client",
   "description": "Client for garlicore-wallet-service",
   "author": "Garlic Insight",
-  "version": "5.2.2",
+  "version": "5.2.3",
   "license": "MIT",
   "keywords": [
     "bitcoin",

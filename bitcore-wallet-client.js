@@ -2555,7 +2555,7 @@ Constants.PATHS = {
 Constants.BIP45_SHARED_INDEX = 0x80000000 - 1;
 
 Constants.UNITS = {
-  btc: {
+  grlc: {
     toSatoshis: 100000000,
     full: {
       maxDecimals: 8,
@@ -87233,8 +87233,8 @@ function extend() {
 module.exports={
   "name": "garlicore-wallet-client",
   "description": "Client for garlicore-wallet-service",
-  "author": "BitPay Inc",
-  "version": "5.2.0",
+  "author": "Garlic Insight",
+  "version": "5.2.2",
   "license": "MIT",
   "keywords": [
     "bitcoin",
@@ -87258,7 +87258,7 @@ module.exports={
   "dependencies": {
     "async": "^0.9.0",
     "bip38": "^1.3.0",
-    "garlicore-lib": "^0.1.0",
+    "garlicore-lib": "^0.1.1",
     "garlicore-mnemonic": "^1.5.1",
     "garlicore-payment-protocol": "^1.5.1",
     "json-stable-stringify": "^1.0.0",
@@ -87268,6 +87268,7 @@ module.exports={
     "superagent": "^3.4.1"
   },
   "devDependencies": {
+    "bitcore-wallet-service": "github:garlicoin-project/garlicore-wallet-service",
     "browserify": "^13.1.0",
     "chai": "^1.9.1",
     "coveralls": "^2.11.2",
@@ -87288,13 +87289,16 @@ module.exports={
     "coveralls": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "docs": "./node_modules/.bin/jsdox lib/* lib/common lib/errors -o docs && cat README.header.md  docs/*.md LICENSE > README.md"
   },
-  "contributors": [{
-    "name": "Ivan Socolsky",
-    "email": "ivan@bitpay.com"
-  }, {
-    "name": "Matias Alejo Garcia",
-    "email": "ematiu@gmail.com"
-  }]
+  "contributors": [
+    {
+      "name": "Ivan Socolsky",
+      "email": "ivan@bitpay.com"
+    },
+    {
+      "name": "Matias Alejo Garcia",
+      "email": "ematiu@gmail.com"
+    }
+  ]
 }
 
 },{}]},{},[1]);
