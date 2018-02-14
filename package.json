@@ -2,7 +2,7 @@
   "name": "garlicore-wallet-client",
   "description": "Client for garlicore-wallet-service",
   "author": "Garlic Insight",
-  "version": "5.2.3",
+  "version": "5.2.4",
   "license": "MIT",
   "keywords": [
     "bitcoin",
@@ -26,7 +26,7 @@
   "dependencies": {
     "async": "^0.9.0",
     "bip38": "^1.3.0",
-    "garlicore-lib": "^0.1.1",
+    "garlicore-lib": "^0.1.2",
     "garlicore-mnemonic": "^1.5.1",
     "garlicore-payment-protocol": "^1.5.1",
     "json-stable-stringify": "^1.0.0",
